@@ -1,0 +1,125 @@
+body {
+  background-color: #fff;
+}
+
+.home_btn_text {
+  color: #ffffff;
+  background-color: #26a9e1;
+  border-color: #26a9e1;
+  /* border:1px solid red; */
+  line-height: 1.33;
+  border-radius: 6px;
+  padding: 16px 20px;
+}
+.home_btn_text:hover {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.home_heading {
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.home_personal-trainer-main-box,
+.home_features-main-box,
+.home_database-main-box {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.home_progress-main-box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+   
+}
+
+.home_personal-trainer-left {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.428571429;
+  /* border: 1px solid red; */
+  background-color: #26a9e1;
+}
+
+
+.home_personal-trainer-heading {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  color: white;
+  margin-top: 88px;
+  margin-bottom: 24px;
+  font-size: 36px;
+  text-align: left;
+}
+.home_features-heading {
+  margin-top: 88px;
+  margin-bottom: 24px;
+  font-size: 36px;
+  text-align: left;
+}
+.home_progress-heading {
+  margin-top: 88px;
+  margin-bottom: 24px;
+  font-size: 36px;
+  text-align: left;
+}
+.home_database-heading {
+    margin-top: 88px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    text-align: left;
+    width: 100%;
+     /* border: 1px solid red;  */
+  }
+
+.home_personal-trainer-para,
+.home_features-para,
+.home_progress-para,
+.home_database-para {
+  box-sizing: border-box;
+  word-spacing: 0.2rem;
+  line-height: 1.4;
+  text-align: left;
+  /* border:1px solid red; */
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.home_personal-trainer-img {
+  box-sizing: border-box;
+  background-image: url("https://www.gymwolf.com/img/trainer-bg.jpg");
+  background-position: right center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-color: #26a9e1;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.home_features-img {
+  box-sizing: border-box;
+  background-image: url("https://www.gymwolf.com/img/landing/features-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.home_progress-img {
+    box-sizing: border-box;
+    background-image: url("https://www.gymwolf.com/img/landing/progress-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* border: 1px solid red;  */
+    margin-left: 15px;
+    
+  }
+  .home_database-img {
+    box-sizing: border-box;
+    background-image: url("https://www.gymwolf.com/img/landing/database-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+  }
