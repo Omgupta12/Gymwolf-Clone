@@ -6,8 +6,11 @@ import "../Video/Video.css"
 
 import { BiChevronRightCircle } from 'react-icons/bi'
 import Register from '../Register/Register'
+import { useNavigate } from 'react-router-dom'
 
 const Video = () => {
+
+  const navigate=useNavigate()
   return (
     <>
       <Box style={{ marginBottom: "9%", boxSizing: "border-box" }}>
@@ -34,6 +37,8 @@ const Video = () => {
               width='250px'
               border='2px'
               borderColor="#26a9e1"
+              _hover={{ bg: '#428bca' }}
+              onClick={()=>navigate("/register")}
             >
               <Text fontSize="2xl"> Start free</Text>
             </Button>
